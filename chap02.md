@@ -1,3 +1,5 @@
+[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/OldMysticSuperPowers/master/images/terminal03.png)](http://patriciogonzalezvivo.com/)
+
 # 2. FileSystem & Directory Structure 
 
 # Directory Structure

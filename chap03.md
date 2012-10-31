@@ -1,19 +1,30 @@
-# 3. Navigation
+# 6. Process
 
-`cd dirname` Moves you to the directory identified.
+`ps`		Report a snapshot of the current processes.
 
-`mkdir dirname`	Creates the specified directory.
+`top`		Display system tasks
 
-`ls dirname`	Shows the contents of the directory specified.
+`kill`		Send a signal to a process
 
-`cp file1 file2`	Copies one file/directory to specified location.
+`killall`
 
-`mv file1 file2`	Moves the location of or renames a file/directory.
+`htop`
 
-`rm filename`	Removes a file.
+`pstree`
 
-`rmdir dirname`	Removes a directory.
+`nice`/`renice`	Run a program with modified scheduling priority
 
-`df`
+`time`		Time a simple command or give resource usage
 
-`du`
+`uptime`	System Load Average
+
+`bg` 	Place jobspec into the background, as if it had been started with `&'. If jobspec is not supplied, the current job is used.
+
+`fg` 	Bring jobspec into the foreground and make it the current job. If jobspec is not supplied, the current job is used.
+
+`jobs`	The first form lists the active jobs. The -l option lists process IDs in addition to the normal information; the -p option lists only the process ID of the job's process group leader. The -n option displays only jobs that have changed status since last notfied. If jobspec is given, output is restricted to information about that job. If jobspec is not supplied, the status of all jobs is listed.
+
+`suspend`	Suspend the execution of this shell until it receives a SIGCONT signal. The -f option means to suspend even if the shell is a login shell.
+When job control is active, the kill and wait builtins also accept jobspec arguments.
+
+`screen`	http://www.ibm.com/developerworks/aix/library/au-gnu_screen/

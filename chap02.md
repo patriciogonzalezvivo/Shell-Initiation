@@ -49,10 +49,14 @@ Also you will notice that every directory have two extra "files":
 *	`..`	A reference to the lower level directory
 
 All the folders and files that start with a dot (`.`) are going to be consider hidden folders. 
+
+###### "Here are you?"commands"
+
+`ls [DIRNAME]`	Shows the contents of the directory specified.
+
+`pwd`	Shows the current directory the user is in.
 	
 ###### Directory related commands
-
-`ls DIRNAME`	Shows the contents of the directory specified.
 
 `cd DIRNAME`	Moves you to the directory identified.
 
@@ -66,15 +70,8 @@ All the folders and files that start with a dot (`.`) are going to be consider h
 
 `mv FILE1 FILE2` Moves the location of or renames a file/directory.
 
-`rm FILE`	Removes a file.
+`rm FILE`	Removes a file.		
 
-######	Other tools related to files and folders
-
-`df`			Display free disk space
-
-`du`			Display disk usage statistics
-	
-	
 ## Accounts and privileges
 
 There are three types of accounts on a Unix system:
@@ -118,7 +115,7 @@ write permissions for the file! So be careful withis.)
 
 * execute determines if the user can cd into the directory.
 
-## Managing Users and Groups
+###### Importants files
 There are three main user administration files, that as you can imagine are located on the `/etc` folder.
 
 `/etc/passwd` Keeps user account and password information. This file holds the majority of information about accounts on the Unix system.
@@ -128,3 +125,38 @@ There are three main user administration files, that as you can imagine are loca
 `/etc/group` This file contains the group information for each account.
 
 `/etc/gshadow` This file contains secure group account information.
+
+### Related programs for managing users and privileges
+
+`umask`		Show the permissions that are given to view files by default
+
+`useradd`	Adds accounts to the system.
+
+`usermod`	Modifies account attributes.
+
+`userdel`	Deletes accounts from the system.
+
+`groups`	Show group memberships
+
+`groupadd`	Adds groups to the system.
+
+`groupmod`	Modifies group attributes.
+
+`groupdel`	Removes groups from the system.
+
+`passed`	Change user password
+
+`chwon`		Change owner
+
+`chirp`		Change the group ownership of a file
+
+`users`		Print names of logged in users
+
+`uname`		Display name of the current system
+
+`last`		Show last logins of users
+
+`who`		List logged in users
+
+`w`			Show what logged in users are doing
+

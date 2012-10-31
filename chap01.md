@@ -106,3 +106,36 @@ We will talk about process on the future but its good to know this from the begi
 *	`Cmd` + `up` line up
 
 *	`Cmd` + `down` line down
+
+### 4. Read the manual
+Unix systems are designed for engineers as all they do the makes manuals for it. Unix have a embedded manual. Just type `man` followed by the name of the program and you will get the manual for it. Use key for navigate throughout it and after that press `q` to quit.
+
+Here are some commands that will give you always good and handy information:
+
+`info`	Displays command information pages
+
+`man`	Displays manual pages
+
+`pwd`	Shows the current directory the user is in.
+
+`df`	Display free disk space
+
+`du`	Display disk usage statistics
+
+`file FILENAME`	Identifies the file type (binary, text, etc).
+
+`find FILENAME DIRECTORY`	Finds a file/directory.
+
+`which FILENAME`	Shows the location of a file if it is in your PATH.
+
+`whereis FILENAME`	Shows the location of a file.
+
+`apropos`	Locate commands by keyword lookup
+
+`whatis`	Search the whatis database for complete words.
+
+`tty`		Print current terminal name
+
+`stty`		Set terminal options
+
+`printenv`	Display value of a shell variable

@@ -1,35 +1,75 @@
-# 4. Information
+# 7. File management
 
-`pwd`	Shows the current directory the user is in.
+# File Viewing/Editing
 
-`file filename`	Identifies the file type (binary, text, etc).
+`echo`	Echo arguments to the standard options
 
-`find filename dir`	Finds a file/directory.
+`touch filename`	Creates a blank file or modifies an existing file.s attributes.
 
-`which filename`	Shows the location of a file if it is in your PATH.
+`cat filename` Displays a filename.
 
-`whereis filename`	Shows the location of a file.
+`head filename`	Shows the beginning of a file.
 
-`apropos`	Locate commands by keyword lookup
+`tail filename`	Shows the end of a file.
 
-`info`	Displays command information pages online
+`more filename`	Browses through a file from beginning to end.
 
-`man`	Displays manual pages online
+`less filename`	Browses through a file from end or beginning.
 
-`whatis`	Search the whatis database for complete words.
+`awk`	Pattern scanning and processing language
 
-`uname`		Display name of the current system
+`cmp`	Compare the contents of two files
 
-`users`		Print names of logged in users
+`comm`	Compare sorted data
 
-`groups`	Show group memberships
+`cut`	Cut out selected fields of each line of a file
 
-`tty`		Print current terminal name
+`diff`	Differential file comparator
 
-`stty`		Set terminal options
+`expand`	Expand tabs to spaces
 
-`who`		List logged in users
+`join`	Join files on some common field
 
-`w`			Show what logged in users are doing
+`perl`	Data manipulation language
 
-`printenv`	Display value of a shell variable
+`sed`	[Stream text editor](http://www.grymoire.com/Unix/Sed.html)
+
+`sort`	Sort file data
+
+`split`	Split file into smaller files
+
+`tr`	Translate characters
+
+`uniq`	Report repeated lines in a file
+
+`wc`	Count words, lines, and characters
+
+`fmt`	Simple text formatter
+
+`vi`	Opens vi text editor
+
+`vim`	Opens vim text editor
+
+`emacs`	GNU project [Emacs](http://batsov.com/articles/2011/11/30/the-ultimate-collection-of-emacs-resources/) 
+
+`pico`/`nano`	other editors 
+
+### Compres
+
+`compress`	Compress files
+
+`gunzip`	Uncompress gzipped files
+
+`gzip`	GNU alternative compression method
+
+`uncompress`	Uncompress files
+
+`unzip`	List, test and extract compressed files in a ZIP archive
+
+`zcat`	Cat a compressed file
+
+`zcmp`	Compare compressed files
+
+`zdiff`	Compare compressed files
+
+`zmore`	File perusal filter for crt viewing of compressed text

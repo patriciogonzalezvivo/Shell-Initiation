@@ -6,21 +6,15 @@ That old days have pass. Now everything it's bright and round, but that power st
 
 ## Index
 
-### 1. [The gate: terminal basics knowladge](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap01.md)
+### 1. [The gate](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap01.md): terminal basics knowladge
 
-### 2. [Trees and Soil: directory structure and filesystem](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap02.md)
+### 2. [Trees and Soil](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap02.md): directory structure and filesystem
 
-### 3. [Navigation](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap03.md)
+### 3. [Flesh and Spirit](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap03.md): jobs management
 
-### 4. [Information](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap04.md)
+### 4. [File management](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap04.md)
 
-### 5. [User Management and Privileges](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap05.md)
+### 5. [Redirection Commands](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap05.md)
 
-### 6. [Process](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap06.md)
-
-### 7. [File management](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap07.md)
-
-### 8. [Redirection Commands](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap08.md)
-
-### 9. [Network](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap09.md)
+### 6. [Network](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap06.md)
 

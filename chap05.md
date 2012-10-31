@@ -1,23 +1,20 @@
-# 5. User Management and Privileges
+# 8. Redirection Commands
 
-`chwon`		Change owner
+Following is the complete list of commands which you can use for redirection:
 
-`chirp`		Change the group ownership of a file
+`pgm > file`	Output of pgm is redirected to file
 
-`passed`	Change user password
+`pgm < file`	Program pgm reads its input from file.
 
-`umask`		Show the permissions that are given to view files by default
+`pgm >> file`	Output of pgm is appended to file.
 
-`useradd`	Adds accounts to the system.
+`n > file`	Output from stream with descriptor n redirected to file.
 
-`usermod`	Modifies account attributes.
+`n >> file`	Output from stream with descriptor n appended to file.
 
-`userdel`	Deletes accounts from the system.
+`n >& m`	Merge output from stream n with stream m.
 
-`groupadd`	Adds groups to the system.
+`n <& m`	Merge input from stream n with stream m.
 
-`groupmod`	Modifies group attributes.
-
-`groupdel`	Removes groups from the system.
-
-`last`		Show last logins of users
+`<< tag`	Standard input comes from here through next tag at start of line.
+`|`			Takes output from one program, or process, and sends it to another.

@@ -1,30 +1,51 @@
-# 6. Process
+# 9. Network 
 
-`ps`		Report a snapshot of the current processes.
+## Clients
 
-`top`		Display system tasks
+`ftp`	File transfer program
 
-`kill`		Send a signal to a process
+`rcp`	Remote file copy
 
-`killall`
+`rlogin`	Remote login to a UNIX host
 
-`htop`
+`rsh`	Remote shell
 
-`pstree`
+`tftp`	Trivial file transfer program
 
-`nice`/`renice`	Run a program with modified scheduling priority
+`telnet`	Make terminal connection to another host
 
-`time`		Time a simple command or give resource usage
+`ssh`	Secure shell terminal or command connection
 
-`uptime`	System Load Average
+`scp`	Secure shell remote file copy
 
-`bg` 	Place jobspec into the background, as if it had been started with `&'. If jobspec is not supplied, the current job is used.
+`sftp`	secure shell file transfer program
 
-`fg` 	Bring jobspec into the foreground and make it the current job. If jobspec is not supplied, the current job is used.
+## Admin  Tools
 
-`jobs`	The first form lists the active jobs. The -l option lists process IDs in addition to the normal information; the -p option lists only the process ID of the job's process group leader. The -n option displays only jobs that have changed status since last notfied. If jobspec is given, output is restricted to information about that job. If jobspec is not supplied, the status of all jobs is listed.
+`ping`
 
-`suspend`	Suspend the execution of this shell until it receives a SIGCONT signal. The -f option means to suspend even if the shell is a login shell.
-When job control is active, the kill and wait builtins also accept jobspec arguments.
+`nslookup`
 
-`screen`	http://www.ibm.com/developerworks/aix/library/au-gnu_screen/
+`netstat`	Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
+
+`finger`
+
+`ifconfig`
+
+`wget`
+
+`rsync`
+
+## Communication
+
+`mail`	Simple send or read mail program
+
+`mesg`	Permit or deny messages
+
+`parcel`	Send files to another user
+
+`pine`	Vdu-based mail utility
+
+`talk`	Talk to another user
+
+`write`	Write message to another user

@@ -8,10 +8,6 @@
 
 `killall`
 
-`htop`
-
-`pstree`
-
 `nice`/`renice`	Run a program with modified scheduling priority
 
 `time`		Time a simple command or give resource usage

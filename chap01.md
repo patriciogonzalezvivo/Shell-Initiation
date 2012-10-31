@@ -112,9 +112,9 @@ Unix systems are designed for engineers as all they do the makes manuals for it.
 
 Here are some commands that will give you always good and handy information:
 
-`info`	Displays command information pages
-
 `man`	Displays manual pages
+
+`info`	Displays command information pages
 
 `pwd`	Shows the current directory the user is in.
 

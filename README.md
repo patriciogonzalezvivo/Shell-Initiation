@@ -10,7 +10,7 @@ That old days have pass. Now everything it's bright and round, but that power st
 
 ### 2. [Trees and Soil](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap02.md): directory structure and filesystem
 
-### 3. [Flesh and Spirit](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap03.md): jobs management
+### 3. [Flesh and Spirit](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap03.md): jobs controls
 
 ### 4. [File management](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap04.md)
 

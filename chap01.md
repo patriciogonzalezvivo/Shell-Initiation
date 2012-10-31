@@ -140,4 +140,6 @@ Here are some commands that will give you always good and handy information:
 
 `printenv`	Display value of a shell variable
 
-[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/OldMysticSuperPowers/master/images/close01.jpg)](http://patriciogonzalezvivo.com/)
+`time`		Time a simple command or give resource usage
+
+`uptime`	System Load Average

@@ -1,20 +1,20 @@
-# 7. File management
+[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/OldMysticSuperPowers/master/images/terminal06.png)](http://patriciogonzalezvivo.com/)
 
 # File Viewing/Editing
 
 `echo`	Echo arguments to the standard options
 
-`touch filename`	Creates a blank file or modifies an existing file.s attributes.
+`touch FILENAME`	Creates a blank file or modifies an existing file.s attributes.
 
-`cat filename` Displays a filename.
+`cat FILENAME` Displays a filename.
 
-`head filename`	Shows the beginning of a file.
+`head FILENAME`	Shows the beginning of a file.
 
-`tail filename`	Shows the end of a file.
+`tail FILENAME`	Shows the end of a file.
 
-`more filename`	Browses through a file from beginning to end.
+`more FILENAME`	Browses through a file from beginning to end.
 
-`less filename`	Browses through a file from end or beginning.
+`less FILENAME`	Browses through a file from end or beginning.
 
 `awk`	Pattern scanning and processing language
 

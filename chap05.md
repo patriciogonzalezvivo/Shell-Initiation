@@ -1,3 +1,5 @@
+[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/OldMysticSuperPowers/master/images/terminal07.png)](http://patriciogonzalezvivo.com/)
+
 # 8. Redirection Commands
 
 Following is the complete list of commands which you can use for redirection:

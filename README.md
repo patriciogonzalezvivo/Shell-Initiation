@@ -6,7 +6,7 @@ That old days have pass. Now everything it's bright and round, but that power st
 
 ## Index
 
-### 1. [The gate](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap01.md): terminal basics knowladge
+### 1. [The gate](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap01.md): terminal basics knowledge
 
 ### 2. [Trees and Soil](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap02.md): directory structure and filesystem
 

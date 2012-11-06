@@ -10,11 +10,9 @@ That old days have pass. Now everything it's bright and round, but that power st
 
 ### 2. [Trees and Soil](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap02.md): directory structure and filesystem
 
-### 3. [Flesh and Spirit](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap03.md): jobs controls
+### 3. [Cosmic dance](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap03.md): jobs controls
 
-### 4. [File management](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap04.md)
+### 4. [The opus and the trades](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap04.md)
 
-### 5. [Redirection Commands](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap05.md)
-
-### 6. [Network](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap06.md)
+### 6. [Network](https://github.com/patriciogonzalezvivo/OldMysticSuperPowers/blob/master/chap05.md)
 

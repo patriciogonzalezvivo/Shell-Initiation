@@ -2,6 +2,12 @@
 
 ## Directory Structure
 
+Like the [Yggdrasil](http://en.wikipedia.org/wiki/Yggdrasil) for the old Norse the folder structure holds the UNIX system like the spine giving strong old in an elegant, flexible and organized way.
+
+From the mind on the '/etc', entrails of the '/usr' passing throughout the hear of the '/boot'. Every folder have a porpoise and a owner.
+  
+Let's start by understanding witch are there for:
+
 *	`/`		This is the root directory which should contain only the directories needed at the top level of the file structure.
 
 *	`/bin`	This is where the executable files are located. They are available to all user.
@@ -42,21 +48,25 @@
 
 	*	`/usr/sbin`		Configuration files for users system applications
 	
-Also you will notice that every directory have two extra "files":
+Like the places on a castle, each room haves it owner and it duties. By thinking on the porpoise and scope of what you are looking for, you can know where you can found it.
+Also, this rooms have some general qualities. Each one have to extra "doors" besides those to the containing rooms.  
 
 *	`.`		A reference to that directory himself
 
 *	`..`	A reference to the lower level directory
 
-All the folders and files that start with a dot (`.`) are going to be consider hidden folders. 
+Finally there hidden doors to folders and files. Those how start with a dot ('.') are hard to be seen by the user. 
 
-###### "Here are you?"commands"
+##### Related commands
+Now that we know the extensions and branches of this house tree we can explore it with some of the following commands.
+
+###### Compas commands
 
 `ls [DIRNAME]`	Shows the contents of the directory specified.
 
 `pwd`	Shows the current directory the user is in.
 	
-###### Directory related commands
+###### Entering, making and destroying rooms
 
 `cd DIRNAME`	Moves you to the directory identified.
 
@@ -64,7 +74,7 @@ All the folders and files that start with a dot (`.`) are going to be consider h
 
 `rmdir DIRNAME`	Removes a directory.
 
-###### Files related commands
+###### Copying, moving and erasing things
 
 `cp FILE1 FILE2` Copies one file/directory to specified location.
 
@@ -73,31 +83,35 @@ All the folders and files that start with a dot (`.`) are going to be consider h
 `rm FILE`	Removes a file.		
 
 ## Accounts and privileges
+Like we said before each room have a owner. It's the same for each element or file you found in it. There are three types of lords ("users"):
 
-There are three types of accounts on a Unix system:
+* ***Root***: This is also called superuser and would have complete and unfettered control of the system. A superuser can run any commands without any restriction. This user should be assumed as a system administrator.
 
-* ***Root account***: This is also called superuser and would have complete and unfettered control of the system. A superuser can run any commands without any restriction. This user should be assumed as a system administrator.
+* ***System***: System accounts are those needed for the operation of system-specific components for example mail accounts and the sshd accounts. These accounts are usually needed for some specific function on your system, and any modifications to them could adversely affect the system.
 
-* ***System accounts***: System accounts are those needed for the operation of system-specific components for example mail accounts and the sshd accounts. These accounts are usually needed for some specific function on your system, and any modifications to them could adversely affect the system.
+* ***User***: User accounts provide interactive access to the system for users and groups of users. General users are typically assigned to these accounts and usually have limited access to critical system files and directories.
 
-* ***User accounts***: User accounts provide interactive access to the system for users and groups of users. General users are typically assigned to these accounts and usually have limited access to critical system files and directories.
+This three types of lords have it's own **Group account**, that we can picture like a family. Each owner can set privileges for them only and others for the people they trust and love.
+In other worlds Unix supports a concept of Group Account which logically groups a number of accounts. Every account would be a part of any group account. Unix groups plays important role in handling file permissions and process management.
 
-Unix supports a concept of Group Account which logically groups a number of accounts. Every account would be a part of any group account. Unix groups plays important role in handling file permissions and process management.
+So, for any file in the system, user 'Thor' may have one of the following ownership relations:
 
-So, for any file in the system, user 'nick' may have one of the following ownership relations:
+*	Thor **owns** the file
+*	Thor is **a member of the group that owns** the file
+*	Thor is **neither the owner, nor belonging to the group that owns** the file
 
-*	nick **owns** the file
-*	nick is **a member of the group that owns** the file
-*	nick is **neither the owner, nor belonging to the group that owns** the file
-
-###### Permissions
-Every file on the system has associated with it a set of permissions. Permissions tell UNIX what can be done with that file and by whom. There are three things you can (or can't) do with a given file:
+### Permissions
+At the same time, every file on the system has associated with it a set of permissions. Permissions tell the system what can be done with that file and by whom. 
+Like spells to objects, the owner can tell how can be read it, writed it or used it. 
+In other words:
 
 *	**read** it,
 *	**write** (modify) it and
 *	**execute** it.
 
-Unix permissions specify which of the above operations can be performed for any ownership relation with respect to the file. In simpler terms, what can the owner do, what can the owner group do, and what can everybody else do with the file. For any given ownership relation, we need three bits to specify access permissions: the first to denote read `r` access, the second to denote `w` access and the third to denote execute `x` access. We have three ownership relations: `owner`, `group` and `all` so we need a triplet for each, resulting in nine bits. Each bit can be **set** or **clear**. We mark a **set** bit by it's corresponding operation letter (r, w or x) and a **clear** bit by a dash `-` and put them all on a row. 
+This **permissions** specify which of the above operations can be performed for any ownership relation with respect to the file. 
+In simpler terms, what can the owner do, what can the owner group do, and what can everybody else do with the file. 
+For any given ownership relation, we need three bits to specify access permissions: the first to denote read `r` access, the second to denote `w` access and the third to denote execute `x` access. We have three ownership relations: `owner`, `group` and `all` so we need a triplet for each, resulting in nine bits. Each bit can be **set** or **clear**. We mark a **set** bit by it's corresponding operation letter (r, w or x) and a **clear** bit by a dash `-` and put them all on a row. 
 An example might be `rwxr-xr-x`. What this means is that the owner can do anything with the file, but group owners and the rest of the world can only read or execute it. Usually in UNIX there is also another bit that precedes this 9-bit pattern. You do not need to know about it, at least for the time being.
 So if you try `ls -l` on the command prompt you will get something like the following:
 
@@ -105,7 +119,7 @@ So if you try `ls -l` on the command prompt you will get something like the foll
 
 The first column here shows the permission bit pattern for each file. The third column shows the owner, and the fourth column shows the owner group. By the time, the information provided by `ls -l` should be enough for you to figure out what each user of the system can do with any of the files in the directory.
 
-###### Directories
+#### Permissions over directories doors
 Another interesting thing to note is that `Library/` which is a directory has permissions, too. Permissions take a different meaning for directories. Here's what they mean:
 
 *	read determines if a user can view the directory's contents, i.e. do `ls` it.
@@ -115,8 +129,8 @@ write permissions for the file! So be careful withis.)
 
 * execute determines if the user can cd into the directory.
 
-###### Importants files
-There are three main user administration files, that as you can imagine are located on the `/etc` folder.
+#### Importants files
+There are three main user administration files, that as you can imagine are located central head quarters of the `/etc` folder.
 
 `/etc/passwd` Keeps user account and password information. This file holds the majority of information about accounts on the Unix system.
 
@@ -126,7 +140,8 @@ There are three main user administration files, that as you can imagine are loca
 
 `/etc/gshadow` This file contains secure group account information.
 
-### Related programs for managing users and privileges
+#### Doorkeepers and key-makers
+If you want to restrict the access to bedrooms or the usage of objects you must speak to this key-makers and doorkeepers in order to put protective spells on them or simple a big lock. Here are their names:
 
 `umask`		Show the permissions that are given to view files by default
 
@@ -160,3 +175,14 @@ There are three main user administration files, that as you can imagine are loca
 
 `w`			Show what logged in users are doing
 
+#### Super Powers
+There is a key that open all the doors. But just the Lord of the house know the phrase. It's the `sudo` command, or "super user do"
+
+#### Executing local files
+Sometimes you will find executable files on places where they are not interpreted as system binaries files. In those ovations to execute them you will need to type `./` at the beginning of it:
+
+`./binaryFile`
+
+or
+
+`/directory/./binaryFile`

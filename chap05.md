@@ -1,22 +1,51 @@
-[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/OldMysticSuperPowers/master/images/terminal07.png)](http://patriciogonzalezvivo.com/)
+# 9. Network 
 
-# 8. Redirection Commands
+## Clients
 
-Following is the complete list of commands which you can use for redirection:
+`ftp`	File transfer program
 
-`pgm > file`	Output of pgm is redirected to file
+`rcp`	Remote file copy
 
-`pgm < file`	Program pgm reads its input from file.
+`rlogin`	Remote login to a UNIX host
 
-`pgm >> file`	Output of pgm is appended to file.
+`rsh`	Remote shell
 
-`n > file`	Output from stream with descriptor n redirected to file.
+`tftp`	Trivial file transfer program
 
-`n >> file`	Output from stream with descriptor n appended to file.
+`telnet`	Make terminal connection to another host
 
-`n >& m`	Merge output from stream n with stream m.
+`ssh`	Secure shell terminal or command connection
 
-`n <& m`	Merge input from stream n with stream m.
+`scp`	Secure shell remote file copy
 
-`<< tag`	Standard input comes from here through next tag at start of line.
-`|`			Takes output from one program, or process, and sends it to another.
+`sftp`	secure shell file transfer program
+
+## Admin  Tools
+
+`ping`
+
+`nslookup`
+
+`netstat`	Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
+
+`finger`
+
+`ifconfig`
+
+`wget`
+
+`rsync`
+
+## Communication
+
+`mail`	Simple send or read mail program
+
+`mesg`	Permit or deny messages
+
+`parcel`	Send files to another user
+
+`pine`	Vdu-based mail utility
+
+`talk`	Talk to another user
+
+`write`	Write message to another user

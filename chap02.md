@@ -1,4 +1,4 @@
-[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/Terminal/master/images/terminal03.png)](http://patriciogonzalezvivo.com/)
+[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/Shell-Initiation/master/images/terminal03.png)](http://patriciogonzalezvivo.com/)
 
 ## Directory Structure
 

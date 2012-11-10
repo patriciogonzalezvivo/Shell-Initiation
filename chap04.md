@@ -1,4 +1,4 @@
-[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/Terminal/master/images/terminal06.png)](http://patriciogonzalezvivo.com/)
+[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/Shell-Initiation/master/images/terminal06.png)](http://patriciogonzalezvivo.com/)
 
 # File Viewing/Editing
 
@@ -74,7 +74,7 @@
 
 `zmore`	File perusal filter for crt viewing of compressed text
 
-[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/Terminal/master/images/terminal07.png)](http://patriciogonzalezvivo.com/)
+[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/Shell-Initiation/master/images/terminal07.png)](http://patriciogonzalezvivo.com/)
 
 # 8. Redirection Commands
 

@@ -1,5 +1,5 @@
 
-[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/Terminal/master/images/terminal02.png)](http://patriciogonzalezvivo.com/)
+[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/Shell-Initiation/master/images/terminal02.png)](http://patriciogonzalezvivo.com/)
 
 First we need to open "the gate" to this world of shadows.
 

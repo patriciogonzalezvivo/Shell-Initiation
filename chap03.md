@@ -1,4 +1,4 @@
-[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/Terminal/master/images/terminal05.png)](http://patriciogonzalezvivo.com/)
+[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/Shell-Initiation/master/images/terminal05.png)](http://patriciogonzalezvivo.com/)
 
 As the sun rise at the morning and the moon changes faces along the mount, every program on the system haves it own rhythm and music that nobody can listen.
 On the background of our systems this process run and take places. Know how to see this strings and pull of them are some of the vital things to learn for every apprentice.

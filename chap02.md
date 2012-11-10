@@ -115,7 +115,7 @@ For any given ownership relation, we need three bits to specify access permissio
 An example might be `rwxr-xr-x`. What this means is that the owner can do anything with the file, but group owners and the rest of the world can only read or execute it. Usually in UNIX there is also another bit that precedes this 9-bit pattern. You do not need to know about it, at least for the time being.
 So if you try `ls -l` on the command prompt you will get something like the following:
 
-[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/Terminal/master/images/terminal04.png)](http://patriciogonzalezvivo.com/)
+[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/Shell-Initiation/master/images/terminal04.png)](http://patriciogonzalezvivo.com/)
 
 The first column here shows the permission bit pattern for each file. The third column shows the owner, and the fourth column shows the owner group. By the time, the information provided by `ls -l` should be enough for you to figure out what each user of the system can do with any of the files in the directory.
 

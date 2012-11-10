@@ -6,13 +6,13 @@ That old days have pass. Now everything it's bright and round, but that power st
 
 ## Index
 
-### 1. [The gate](https://github.com/patriciogonzalezvivo/Terminal/blob/master/chap01.md): terminal basics knowledge
+### 1. [The gate](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap01.md): terminal basics knowledge
 
-### 2. [Trees and Soil](https://github.com/patriciogonzalezvivo/Terminal/blob/master/chap02.md): directory structure and filesystem
+### 2. [Trees and Soil](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap02.md): directory structure and filesystem
 
-### 3. [Cosmic dance](https://github.com/patriciogonzalezvivo/Terminal/blob/master/chap03.md): jobs controls
+### 3. [Cosmic dance](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap03.md): jobs controls
 
-### 4. [The opus and the trades](https://github.com/patriciogonzalezvivo/Terminal/blob/master/chap04.md)
+### 4. [The opus and the trades](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap04.md)
 
-### 6. [Network](https://github.com/patriciogonzalezvivo/Terminal/blob/master/chap05.md)
+### 6. [Network](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap05.md)
 

@@ -10,9 +10,18 @@ That old days have pass. Now everything it's bright and round, but that power st
 
 ### 2. [Trees and Soil](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap02.md): directory structure and filesystem
 
-### 3. [Cosmic dance](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap03.md): jobs controls
+### 3. [The Cosmic dance](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap03.md): jobs controls
 
-### 4. [The opus and the trades](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap04.md)
+###### 3.a. [Screen](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap03a.md)
 
-### 6. [Network](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap05.md)
+### 4. [The Harvest](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap04.md): every day working on Unix
 
+### 5. [The marriage](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap05.md): networking, Unix and the internet
+
+###	6. The Opus: developing directly from console
+
+###### 6.a. [Emacs](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap06a.md)
+
+###### 6.b. [Vi](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap06b.md)
+
+###### 6.c. [Git](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap06c.md)

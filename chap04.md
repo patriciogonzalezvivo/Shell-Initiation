@@ -113,7 +113,7 @@ Another important duty you are going to do on your terminal will involve not jus
 *	`compress`	Compress files
 
 *	`uncompress`	Uncompress files
-*	
+
 *	`gunzip`	Uncompress gzipped files
 
 *	`gzip`	GNU alternative compression method
@@ -132,8 +132,8 @@ There is one that's particularly powerful that let you pack and compress in diff
 
 	man tar
 	
-Speaking of power it's hard not to speak of two text editor that are SO incredible powerful that they can be use as IDEs and much more. This is the case of `vi` and `emacs`. And here are links to their owns chapters.
+Speaking of power it's hard not to speak of two text editor that are SO incredible powerful that they can be use as IDEs and much more. This is the case of `vi` and `emacs` and the dived waters on their of developers choice. You can picture them as two doors to two different tribes. Choose wisely:
 
-*	[Emacs](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap04a.md)
+*	[Emacs](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap06a.md)
 
-*	[Vi/vim](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap04b.md)
+*	[Vi/vim](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap06b.md)

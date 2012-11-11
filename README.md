@@ -18,7 +18,7 @@ That old days have pass. Now everything it's bright and round, but that power st
 
 ### 5. [The marriage](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap05.md): networking, Unix and the internet
 
-###	6. The Opus: developing directly from console
+###	6. [The Opus](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap05.md): developing directly from console
 
 ###### 6.a. [Emacs](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap06a.md)
 
@@ -51,3 +51,5 @@ http://www.cyberciti.biz/tips/spice-up-your-unix-linux-shell-scripts.html
 http://vislab-ccom.unh.edu/~schwehr/rt/
 
 https://plus.google.com/111560558537332305125/posts/d64bp6rkZMC
+
+http://linuxcommand.org/

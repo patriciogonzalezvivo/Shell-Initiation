@@ -107,4 +107,4 @@ To change the priority of a running job, use the command `renice`. For example, 
 `suspend`	Suspend the execution of this shell until it receives a SIGCONT signal. The -f option means to suspend even if the shell is a login shell.
 When job control is active, the kill and wait builtins also accept jobspec arguments.
 
-`screen`	Powerfull tool to control jobs, logs, and much more. [Here you can found and excellent tutorial](http://www.ibm.com/developerworks/aix/library/au-gnu_screen/)
+This capability of sending things to background or foreground it's really handy, but if you are logging on and off all the time it's gets difficult. That's why there is a very powerful application it will take you in a completely new different level. It's call [`screen`](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap03a.md) and is so much complex that certainly it deserve it [own chapter](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap03a.md)

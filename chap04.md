@@ -49,7 +49,7 @@ But viewing it's not enough. Isn't? Our terminal can act like a complete word pr
 
 Sometimes this is just not enough and you need to do heavy regular expressions stuff. You will find two incredible tools for that:
 
-*	`awk`	Pattern scanning and processing language
+*	`awk`	Pattern scanning and processing language. Reference: [here](http://www.catonmat.net/blog/awk-one-liners-explained-part-one/)
 
 *	`sed`	stream text editor. References: [here](http://www.pement.org/sed/sedfaq.html), [here](http://www.catonmat.net/blog/proof-that-sed-is-turing-complete/), [here](http://www.thegeekstuff.com/tag/sed-tips-and-tricks/), [here](http://tech.bluesmoon.info/2008/09/programming-patterns-in-sed.html) and [here](http://www.grymoire.com/Unix/Sed.html)
 

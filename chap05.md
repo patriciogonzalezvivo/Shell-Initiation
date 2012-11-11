@@ -1,49 +1,57 @@
 [![Header](https://raw.github.com/patriciogonzalezvivo/Shell-Initiation/master/images/terminal12.jpg)](http://patriciogonzalezvivo.com/)
 
-## Clients
+Like a marriage made on heaven Unix belongs to the network and the network to Unix. No matter witch flavor of Unix/Linux are you using certainly your OS was designed to connect and interact with other computers.
 
-`ftp`	File transfer program
+If you are in a Linux distribution you can do
 
-`rcp`	Remote file copy
+	ls /etc/rc.init 
+ 
+and se with your own eyes all the service you OS can provide. In fact lot of them probably are already running. You computer can provide services of many kind each one of those are executed and managed by one of those programs that runs in background by the system user and are call **deamons**.
 
-`rlogin`	Remote login to a UNIX host
+On the other side can also find lot's of clients for those services and more. A perfect match. Client and Servers all together.
 
-`rsh`	Remote shell
+*	`ftp`	File transfer program
 
-`tftp`	Trivial file transfer program
+*	`rcp`	Remote file copy
 
-`telnet`	Make terminal connection to another host
+*	`rlogin`	Remote login to a UNIX host
 
-`ssh`	Secure shell terminal or command connection
+*	`rsh`	Remote shell
 
-`scp`	Secure shell remote file copy
+*	`tftp`	Trivial file transfer program
 
-`sftp`	secure shell file transfer program
+*	`telnet`	Make terminal connection to another host
 
-`git`	[Git client](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap06c.md) 
+*	`ssh`	Secure shell terminal or command connection
 
-## Admin  Tools
+*	`scp`	Secure shell remote file copy
 
-`ping`
+*	`sftp`	secure shell file transfer program
 
-`nslookup`
+*	`git`	[Git client](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap06c.md) 
 
-`netstat`	Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
+*	`nslookup`	Perform searchers on DNS servers
 
-`finger`
+*	`rsync`	Rsync client that let you sync up directories using ftp or ssh protocols 
 
-`ifconfig`
+But sometime you just need simple programs to administrate your network
 
-`wget`
+*	`ping`
 
-`rsync`
+*	`netstat`	Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
 
-## Communication
+*	`finger`
 
-`mail`	Simple send or read mail program
+*	`ifconfig`
 
-`mesg`	Permit or deny messages
+*	`wget`
 
-`talk`	Talk to another user
+Because networking it's essentially communication each other on your system you could found small console programs to send information and chat. This is literally the beginning of moderns mail and chat services. This is the old way universities communicate with each other. 
 
-`write`	Write message to another user
+*	`mail`	Simple send or read mail program
+
+*	`mesg`	Permit or deny messages
+
+*	`talk`	Talk to another user
+
+*	`write`	Write message to another user

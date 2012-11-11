@@ -2,6 +2,10 @@
 
 # Emacs
 
+http://www.masteringemacs.org/
+
+http://batsov.com/articles/2011/11/19/why-emacs/
+
 http://batsov.com/articles/2011/11/30/the-ultimate-collection-of-emacs-resources/
 
 http://devblog.avdi.org/2012/10/16/lets-stop-telling-programming-newbies-to-learn-vim-or-emacs/

@@ -25,3 +25,29 @@ That old days have pass. Now everything it's bright and round, but that power st
 ###### 6.b. [Vi](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap06b.md)
 
 ###### 6.c. [Git](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap06c.md)
+
+## Links
+
+http://theody.net/elements.html
+
+https://www.shortcutfoo.com/
+
+http://everythingsysadmin.com/2012/09/unorthodoxunix.html
+
+http://www.johndcook.com/blog/2011/05/12/command-option-patterns/
+
+http://www.eriwen.com/productivity/find-is-a-beautiful-tool/
+
+http://www.naildrivin5.com/blog/2012/04/01/the-nine-facets-of-an-awesome-command-line-app.html
+
+http://www.pixelbeat.org/cmdline.html
+
+http://blog.sanctum.geek.nz/typo-correction-in-bash/
+
+http://www.thegeekstuff.com/2010/09/linux-file-system-structure/
+
+http://www.cyberciti.biz/tips/spice-up-your-unix-linux-shell-scripts.html
+
+http://vislab-ccom.unh.edu/~schwehr/rt/
+
+https://plus.google.com/111560558537332305125/posts/d64bp6rkZMC

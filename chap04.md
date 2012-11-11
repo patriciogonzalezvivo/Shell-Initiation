@@ -51,7 +51,7 @@ Sometimes this is just not enough and you need to do heavy regular expressions s
 
 *	`awk`	Pattern scanning and processing language
 
-*	`sed`	[Stream text editor](http://www.grymoire.com/Unix/Sed.html)
+*	`sed`	stream text editor. References: [here](http://www.pement.org/sed/sedfaq.html), [here](http://www.catonmat.net/blog/proof-that-sed-is-turing-complete/), [here](http://www.thegeekstuff.com/tag/sed-tips-and-tricks/), [here](http://tech.bluesmoon.info/2008/09/programming-patterns-in-sed.html) and [here](http://www.grymoire.com/Unix/Sed.html)
 
 Intact `awk` and `sed` have there own kind of language. With is not strange to find in Unix contents. There are other unix programs that have their own language (script language) that you can use directly from the terminal. Must of them you already know them if you have been doing web work:
 

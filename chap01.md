@@ -124,7 +124,7 @@ Here are some commands that will give you always good and handy information:
 
 *	`file FILENAME`	Identifies the file type (binary, text, etc).
 
-*	`find FILENAME DIRECTORY`	Finds a file/directory.
+*	`find FILENAME DIRECTORY`	Finds a file/directory. More reference: [here](http://www.eriwen.com/productivity/find-is-a-beautiful-tool/)
 
 *	`which FILENAME`	Shows the location of a file if it is in your PATH.
 

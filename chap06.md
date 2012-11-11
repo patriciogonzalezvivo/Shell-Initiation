@@ -1,0 +1,1 @@
+http://blog.sanctum.geek.nz/series/unix-as-ide/

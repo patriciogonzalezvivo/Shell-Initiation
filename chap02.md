@@ -57,6 +57,8 @@ Also, this rooms have some general qualities. Each one have to extra "doors" bes
 
 Finally there hidden doors to folders and files. Those how start with a dot ('.') are hard to be seen by the user. 
 
+More resources [here](http://www.thegeekstuff.com/2010/09/linux-file-system-structure/) 
+
 ##### Related commands
 Now that we know the extensions and branches of this house tree we can explore it with some of the following commands.
 

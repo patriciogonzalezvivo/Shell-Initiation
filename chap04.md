@@ -1,4 +1,4 @@
-[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/Shell-Initiation/master/images/terminal06.png)](http://patriciogonzalezvivo.com/)
+[![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/Shell-Initiation/master/images/terminal08.png)](http://patriciogonzalezvivo.com/)
 
 # File Viewing/Editing
 

@@ -112,34 +112,37 @@ Unix systems are designed for engineers as all they do the makes manuals for it.
 
 Here are some commands that will give you always good and handy information:
 
-`man`	Displays manual pages
+*	`man`	Displays manual pages
 
-`info`	Displays command information pages
+*	`info`	Displays command information pages
 
-`pwd`	Shows the current directory the user is in.
+*	`pwd`	Shows the current directory the user is in.
 
-`df`	Display free disk space
+*	`df`	Display free disk space
 
-`du`	Display disk usage statistics
+*	`du`	Display disk usage statistics
 
-`file FILENAME`	Identifies the file type (binary, text, etc).
+*	`file FILENAME`	Identifies the file type (binary, text, etc).
 
-`find FILENAME DIRECTORY`	Finds a file/directory.
+*	`find FILENAME DIRECTORY`	Finds a file/directory.
 
-`which FILENAME`	Shows the location of a file if it is in your PATH.
+*	`which FILENAME`	Shows the location of a file if it is in your PATH.
 
-`whereis FILENAME`	Shows the location of a file.
+*	`whereis FILENAME`	Shows the location of a file.
 
-`apropos`	Locate commands by keyword lookup
+*	`apropos`	Locate commands by keyword lookup
 
-`whatis`	Search the whatis database for complete words.
+*	`whatis`	Search the whatis database for complete words.
 
-`tty`		Print current terminal name
+*	`tty`		Print current terminal name
 
-`stty`		Set terminal options
+*	`stty`		Set terminal options
 
-`printenv`	Display value of a shell variable
+*	`printenv`	Display value of a shell variable
 
-`time`		Time a simple command or give resource usage
+*	`time`		Time a simple command or give resource usage
 
-`uptime`	System Load Average
+*	`uptime`	System Load Average
+
+*	`cal`		Displays a calendar and the date of easter
+

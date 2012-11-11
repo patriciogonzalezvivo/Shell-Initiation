@@ -86,25 +86,25 @@ To change the priority of a running job, use the command `renice`. For example, 
 
 #### Instruments and Commands
 
-`&`			Run the command in the background
+*	`&`			Run the command in the background
 
-`ps`		Report a snapshot of the current processes.
+*	`ps`		Report a snapshot of the current processes.
 
-`top`		Display system tasks
+*	`top`		Display system tasks
 
-`kill`		Send a signal to a process
+*	`kill`		Send a signal to a process
 
-`killall PROGRAM_NAME`	kill a process by app name
+*	`killall PROGRAM_NAME`	kill a process by app name
 
-`nice`/`renice`	Run a program with modified scheduling priority
+*	`nice`/`renice`	Run a program with modified scheduling priority
 
-`bg` 		Place jobspec into the background, as if it had been started with `&'. If jobspec is not supplied, the current job is used.
+*	`bg` 		Place jobspec into the background, as if it had been started with `&'. If jobspec is not supplied, the current job is used.
 
-`fg` 		Bring jobspec into the foreground and make it the current job. If jobspec is not supplied, the current job is used.
+*	`fg` 		Bring jobspec into the foreground and make it the current job. If jobspec is not supplied, the current job is used.
 
-`jobs`		The first form lists the active jobs. The -l option lists process IDs in addition to the normal information; the -p option lists only the process ID of the job's process group leader. The -n option displays only jobs that have changed status since last notfied. If jobspec is given, output is restricted to information about that job. If jobspec is not supplied, the status of all jobs is listed.
+*	`jobs`		The first form lists the active jobs. The -l option lists process IDs in addition to the normal information; the -p option lists only the process ID of the job's process group leader. The -n option displays only jobs that have changed status since last notfied. If jobspec is given, output is restricted to information about that job. If jobspec is not supplied, the status of all jobs is listed.
 
-`suspend`	Suspend the execution of this shell until it receives a SIGCONT signal. The -f option means to suspend even if the shell is a login shell.
+*	`suspend`	Suspend the execution of this shell until it receives a SIGCONT signal. The -f option means to suspend even if the shell is a login shell.
 When job control is active, the kill and wait builtins also accept jobspec arguments.
 
 This capability of sending things to background or foreground it's really handy, but if you are logging on and off all the time it's gets difficult. That's why there is a very powerful application it will take you in a completely new different level. It's call [`screen`](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap03a.md) and is so much complex that certainly it deserve it [own chapter](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap03a.md)

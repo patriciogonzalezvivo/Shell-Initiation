@@ -143,37 +143,37 @@ There are three main user administration files, that as you can imagine are loca
 #### Doorkeepers and key-makers
 If you want to restrict the access to bedrooms or the usage of objects you must speak to this key-makers and doorkeepers in order to put protective spells on them or simple a big lock. Here are their names:
 
-`umask`		Show the permissions that are given to view files by default
+*	`umask`		Show the permissions that are given to view files by default
 
-`useradd`	Adds accounts to the system.
+*	`useradd`	Adds accounts to the system.
 
-`usermod`	Modifies account attributes.
+*	`usermod`	Modifies account attributes.
 
-`userdel`	Deletes accounts from the system.
+*	`userdel`	Deletes accounts from the system.
 
-`groups`	Show group memberships
+*	`groups`	Show group memberships
 
-`groupadd`	Adds groups to the system.
+*	`groupadd`	Adds groups to the system.
 
-`groupmod`	Modifies group attributes.
+*	`groupmod`	Modifies group attributes.
 
-`groupdel`	Removes groups from the system.
+*	`groupdel`	Removes groups from the system.
 
-`passed`	Change user password
+*	`passed`	Change user password
 
-`chwon`		Change owner
+*	`chwon`		Change owner
 
-`chirp`		Change the group ownership of a file
+*	`chirp`		Change the group ownership of a file
 
-`users`		Print names of logged in users
+*	`users`		Print names of logged in users
 
-`uname`		Display name of the current system
+*	`uname`		Display name of the current system
 
-`last`		Show last logins of users
+*	`last`		Show last logins of users
 
-`who`		List logged in users
+*	`who`		List logged in users
 
-`w`			Show what logged in users are doing
+*	`w`			Show what logged in users are doing
 
 #### Super Powers
 There is a key that open all the doors. But just the Lord of the house know the phrase. It's the `sudo` command, or "super user do"

@@ -20,6 +20,8 @@
 
 `sftp`	secure shell file transfer program
 
+`git`	[Git client](https://github.com/patriciogonzalezvivo/Shell-Initiation/blob/master/chap06c.md) 
+
 ## Admin  Tools
 
 `ping`
@@ -41,10 +43,6 @@
 `mail`	Simple send or read mail program
 
 `mesg`	Permit or deny messages
-
-`parcel`	Send files to another user
-
-`pine`	Vdu-based mail utility
 
 `talk`	Talk to another user
 

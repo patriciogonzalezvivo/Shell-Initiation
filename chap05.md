@@ -4,7 +4,7 @@ Like a marriage made on heaven Unix belongs to the network and the network to Un
 
 If you are in a Linux distribution you can do
 
-	ls /etc/rc.init 
+	ls /etc/init.d 
  
 and se with your own eyes all the service you OS can provide. In fact lot of them probably are already running. You computer can provide services of many kind each one of those are executed and managed by one of those programs that runs in background by the system user and are call **deamons**.
 

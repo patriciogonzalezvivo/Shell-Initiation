@@ -1,8 +1,8 @@
 [![Terminal Dorkshop](https://raw.github.com/patriciogonzalezvivo/Shell-Initiation/master/images/terminal01.png)](http://patriciogonzalezvivo.com/)
 
-Not so long time ago just before the [Bell's Chambers release the Unix](http://www.youtube.com/watch?v=tc4ROCJYbm0), before the gestures, clicks and drags arrive, the world was dark and cold. People use to know how to move through shadows and consoles. They know the secrets spells to speak with [daemons](http://en.wikipedia.org/wiki/Daemon_computing), and make talk the [echo](http://en.wikipedia.org/wiki/Echo_command). That was the time of the [Midnight Commander](http://en.wikipedia.org/wiki/Midnight_Commander) and the [Emacs](http://en.wikipedia.org/wiki/Emacs). Hard times that forge hard mens. Rules were wrote on code and blended with [shell pipes](http://www.dsj.net/compedge/shellbasics1.html).
+Not so long time ago just before the [Bell's Chambers release the Unix](http://www.youtube.com/watch?v=tc4ROCJYbm0), before the gestures, clicks and drags arrive, the world was dark and cold. People used to know how to move through shadows and consoles. They knew the secrets spells to speak with [daemons](http://en.wikipedia.org/wiki/Daemon_computing), and made the [echo](http://en.wikipedia.org/wiki/Echo_command) talk. That was the time of the [Midnight Commander](http://en.wikipedia.org/wiki/Midnight_Commander) and the [Emacs](http://en.wikipedia.org/wiki/Emacs). Hard times that forge hard mens. Rules were wrote on code and blended with [shell pipes](http://www.dsj.net/compedge/shellbasics1.html).
 
-That old days have pass. Now everything it's bright and round, but that power still remains on shadows. In silence waits for does brave enough that decide to learn the secret words that unleash the ancient occult powers of your domains.
+That old days have passed. Now everything is bright and round, but that power still remains in the shadows. In silence wait those brave enough who decide to learn the secret words that unleash the ancient occult powers of your domains.
 
 ## Index
 
